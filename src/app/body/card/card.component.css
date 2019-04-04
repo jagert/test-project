@@ -1,0 +1,30 @@
+.app-color1 {
+  background-color: rgb(225,225,225);
+}
+
+.app-color2 {
+  background-color: rgb(255,255,60);
+}
+
+.app-color3 {
+  background-color: rgb(243,49,98);
+}
+
+.app-color4 {
+  background-color: rgb(54,236,248);
+}
+
+.app-color5 {
+  background-color: rgb(54,248,199);
+}
+
+.app-card-cursor {
+  cursor: pointer !important;
+}
+
+.app-card:hover{
+  color: #fff;
+  background-color: rgb(5,171,246);
+  border-color: #fff;
+  transition-duration: 0.33s;
+}

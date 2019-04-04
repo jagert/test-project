@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="col-sm-4 float-left px-sm-1">
+    <app-card [card]="card" *ngFor="let card of cards1; let i=index;" (dblclick)="deleteCard(cards1, i)"></app-card>
+  </div>
+  <div class="col-sm-4 float-left px-sm-1">
+    <app-card [card]="card" *ngFor="let card of cards2; let i=index;" (dblclick)="deleteCard(cards2, i)"></app-card>
+  </div>
+  <div class="col-sm-4 float-left px-sm-1">
+    <app-card [card]="card" *ngFor="let card of cards3; let i=index;" (dblclick)="deleteCard(cards3, i)"></app-card>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.app-header-text-color {
+  color: rgb(5,171,246);
+}
+
+.app-header-background-color {
+  background-color: rgb(5,171,246);
+}
+
+.app-header-date-block {
+  height: 75px;
+  width: 75px;
+  transform: rotate(-2deg)
+}

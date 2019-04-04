@@ -1,0 +1,6 @@
+<div class="card shadow-sm my-sm-2 {{style}} app-card-cursor app-card" (click)="toggleText()">
+  <div class="card-body">
+    <h5 class="card-title text-center">{{ card?.theme }}</h5>
+    <p class="card-text">{{ showTranslate ? card?.translation : card?.sourceText }}</p>
+  </div>
+</div>
